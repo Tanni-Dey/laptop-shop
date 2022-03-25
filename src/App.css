@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,600;1,400;1,600&display=swap');
+body{
+  background-color: black;
+  font-family: 'Newsreader', serif;
+  color: rgb(236, 2, 119);
+}
 .App {
   text-align: center;
 }

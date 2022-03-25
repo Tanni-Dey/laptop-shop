@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "brandName": "ASUS",
+        "img": "https://in-media.apjonlinecdn.com/catalog/product/cache/b3b166914d87ce343d4dc5ec5117b502/c/0/c06591177_1_4.png",
+        "price": 70000
+    },
+    {
+        "id": 2,
+        "brandName": "DELL",
+        "img": "https://in-media.apjonlinecdn.com/catalog/product/cache/b3b166914d87ce343d4dc5ec5117b502/c/0/c06591177_1_4.png",
+        "price": 40000
+    },
+    {
+        "id": 3,
+        "brandName": "LENOVO",
+        "img": "https://in-media.apjonlinecdn.com/catalog/product/cache/b3b166914d87ce343d4dc5ec5117b502/c/0/c06591177_1_4.png",
+        "price": 45000
+    },
+    {
+        "id": 4,
+        "brandName": "HP",
+        "img": "https://in-media.apjonlinecdn.com/catalog/product/cache/b3b166914d87ce343d4dc5ec5117b502/c/0/c06591177_1_4.png",
+        "price": 50000
+    },
+    {
+        "id": 5,
+        "brandName": "APPLE",
+        "img": "https://in-media.apjonlinecdn.com/catalog/product/cache/b3b166914d87ce343d4dc5ec5117b502/c/0/c06591177_1_4.png",
+        "price": 250000
+    },
+    {
+        "id": 6,
+        "brandName": "ACER",
+        "img": "https://in-media.apjonlinecdn.com/catalog/product/cache/b3b166914d87ce343d4dc5ec5117b502/c/0/c06591177_1_4.png",
+        "price": 34000
+    },
+    {
+        "id": 7,
+        "brandName": "MSI",
+        "img": "https://in-media.apjonlinecdn.com/catalog/product/cache/b3b166914d87ce343d4dc5ec5117b502/c/0/c06591177_1_4.png",
+        "price": 30000
+    },
+    {
+        "id": 8,
+        "brandName": "WALTON",
+        "img": "https://in-media.apjonlinecdn.com/catalog/product/cache/b3b166914d87ce343d4dc5ec5117b502/c/0/c06591177_1_4.png",
+        "price": 35000
+    },
+    {
+        "id": 9,
+        "brandName": "Microsoft Surface",
+        "img": "https://in-media.apjonlinecdn.com/catalog/product/cache/b3b166914d87ce343d4dc5ec5117b502/c/0/c06591177_1_4.png",
+        "price": 47000
+    },
+    {
+        "id": 10,
+        "brandName": "SAMSUNG",
+        "img": "https://in-media.apjonlinecdn.com/catalog/product/cache/b3b166914d87ce343d4dc5ec5117b502/c/0/c06591177_1_4.png",
+        "price": 41000
+    },
+    {
+        "id": 11,
+        "brandName": "RAZER",
+        "img": "https://in-media.apjonlinecdn.com/catalog/product/cache/b3b166914d87ce343d4dc5ec5117b502/c/0/c06591177_1_4.png",
+        "price": 122000
+    },
+    {
+        "id": 12,
+        "brandName": "TOSHIBA",
+        "img": "https://in-media.apjonlinecdn.com/catalog/product/cache/b3b166914d87ce343d4dc5ec5117b502/c/0/c06591177_1_4.png",
+        "price": 31000
+    }
+]
