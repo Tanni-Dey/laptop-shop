@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Laptops from './components/Laprops/Laptops';
+import Questions from './components/Questions/Questions';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <div className='container'>
         <h1 className='p-5'>LAPTOP SHOP</h1>
         <Laptops></Laptops>
+        <Questions></Questions>
       </div>
     </div>
   );
