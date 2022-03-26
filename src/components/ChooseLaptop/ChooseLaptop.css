@@ -1,0 +1,13 @@
+.choose-laptop{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px;
+    border: 1px solid rgb(236, 2, 119);
+    border-radius: 5px;
+    margin: 10px;
+}
+.choose-laptop img{
+    width: 30px;
+    
+}
