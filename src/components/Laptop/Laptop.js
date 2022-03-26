@@ -11,7 +11,7 @@ const Laptop = ({ laptop, handleBuyBtn }) => {
                 <img className='img-fluid' src={img} alt="" />
                 <div className='laptop-info pt-5'>
                     <h3>{brandName}</h3>
-                    <p>Price : {price}</p>
+                    <p>Price : ${price}</p>
                     <button onClick={() => handleBuyBtn(laptop)}><FaCartArrowDown />&nbsp; &nbsp; Buy Now</button>
                 </div>
             </div>
