@@ -26,6 +26,11 @@ const Laptops = () => {
         const buy = buylaptops[Math.floor(Math.random() * buylaptops.length)];
         setChoose(buy)
     }
+    const deltLaptop = (id) => {
+        const deltLaptop = buylaptops.find(delt => delt.id === id);
+        const remainLaptop = buylaptops.filter(delt => deltLaptop.id !== delt.id);
+        setbuylaptops(remainLaptop)
+    }
     return (
         <div className='row'>
             <div className='col-md-9 row'>
@@ -38,7 +43,7 @@ const Laptops = () => {
                     <h3>Selected Laptops</h3>
 
                     {
-                        buylaptops.map(singleLaptop => <BuyLaptop select={singleLaptop} key={singleLaptop.id}></BuyLaptop>)
+                        buylaptops.map(singleLaptop => <BuyLaptop select={singleLaptop} dltitem={deltLaptop} key={singleLaptop.id}></BuyLaptop>)
                     }
                     <button onClick={resetBtn} className='btn p-3 btn-danger'>Reset</button><br />
                     <button onClick={chooseLaptop} className='btn mt-3 p-3 btn-warning'>Choose Laptop</button>

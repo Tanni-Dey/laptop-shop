@@ -3,8 +3,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { AiFillDelete } from 'react-icons/ai';
 import './BuyLaptop.css'
 
-const BuyLaptop = ({ select }) => {
-    const { brandName, img } = select;
+const BuyLaptop = ({ select, dltitem }) => {
+    const { id, brandName, img } = select;
     return (
         <div className='buy-single row'>
             <div className="col-md-4">
@@ -13,7 +13,7 @@ const BuyLaptop = ({ select }) => {
             <div className="col-md-4">
                 <h6>{brandName}</h6>
             </div>
-            <div className="col-md-4"><AiFillDelete /></div>
+            <div className="col-md-4"><AiFillDelete onClick={() => dltitem(id)} /></div>
 
         </div>
     );
