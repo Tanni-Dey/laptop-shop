@@ -8,7 +8,7 @@ import ChooseLaptop from '../ChooseLaptop/ChooseLaptop';
 const Laptops = () => {
     const [laptops, setLaptops] = useState([])
     const [buylaptops, setbuylaptops] = useState([])
-    const [choose, setChoose] = useState([buylaptops])
+    const [choose, setChoose] = useState([])
     useEffect(() => {
         fetch('laptops.json')
             .then(res => res.json())
