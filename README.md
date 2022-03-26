@@ -1,5 +1,7 @@
 ## Project Name
 Laptop Shop
+# Live Website 
+Live link :[website](https://laptops-shop12.netlify.app/)
 
 # Getting Started with Create React App
 
