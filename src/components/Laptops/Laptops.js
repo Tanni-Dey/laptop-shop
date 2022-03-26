@@ -18,11 +18,13 @@ const Laptops = () => {
         const newSelect = [...buylaptops, selectLaptop]
         setbuylaptops(newSelect);
     }
-    const resetBtn = () => setbuylaptops([])
+    const resetBtn = () => {
+        setbuylaptops([])
+        setChoose([])
+    }
     const chooseLaptop = () => {
         const buy = buylaptops[Math.floor(Math.random() * buylaptops.length)];
         setChoose(buy)
-        console.log(choose);
     }
     return (
         <div className='row'>
