@@ -1,0 +1,11 @@
+.buy-single{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border: 1px solid rgb(236, 2, 119);
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.buy-single img{
+    width: 30px;
+}

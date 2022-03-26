@@ -2,7 +2,7 @@
     border: 1px solid rgb(236, 2, 119);
     border-radius: 20px;
 }
-.select-laptop h3{
+.select-laptop div{
     position: sticky;
     top: 0;
 }
