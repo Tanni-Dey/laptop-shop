@@ -4,7 +4,7 @@ import { FaCartArrowDown } from 'react-icons/fa';
 import './Laptop.css'
 
 const Laptop = ({ laptop, handleBuyBtn }) => {
-    const { id, brandName, img, price } = laptop;
+    const { brandName, img, price } = laptop;
     return (
         <div className='col-md-4 mb-3'>
             <div className='laptop'>

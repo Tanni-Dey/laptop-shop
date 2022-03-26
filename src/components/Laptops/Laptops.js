@@ -42,7 +42,7 @@ const Laptops = () => {
                     }
                     <button onClick={resetBtn} className='btn p-3 btn-danger'>Reset</button><br />
                     <button onClick={chooseLaptop} className='btn mt-3 p-3 btn-warning'>Choose Laptop</button>
-                    <ChooseLaptop choose={choose}></ChooseLaptop>
+                    <ChooseLaptop choose={choose ? choose : ''}></ChooseLaptop>
                 </div>
 
             </div>
