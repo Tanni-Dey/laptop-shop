@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import Laptops from './components/Laprops/Laptops';
+import Laptops from './components/Laptops/Laptops';
 import Questions from './components/Questions/Questions';
 
 function App() {

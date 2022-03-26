@@ -3,6 +3,9 @@
     border-radius: 20px;
     padding: 20px;
 }
+.laptop img{
+    height: 150px;
+}
 .laptop:hover{
     background-color: pink;
     transition: 0.5s;
