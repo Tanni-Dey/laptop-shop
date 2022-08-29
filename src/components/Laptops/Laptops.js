@@ -15,8 +15,30 @@ const Laptops = () => {
             .then(data => setLaptops(data))
     }, [])
     const handleBuyBtn = (selectLaptop) => {
+        /* const newSelect = [...buylaptops, selectLaptop]
+        setbuylaptops(newSelect); */
         const newSelect = [...buylaptops, selectLaptop]
-        setbuylaptops(newSelect);
+        // const e = newSelect.find(s => s.id === selectLaptop.id)
+        if (newSelect.indexOf(selectLaptop) === -1) {
+            alert('gh')
+        }
+        else {
+            const newSelect = [...buylaptops, selectLaptop]
+            setbuylaptops(newSelect);
+        }
+
+        // newSelect.filter(s=>s)
+        /*  const f = newSelect.indexOf(selectLaptop);
+         if (f !== -1) {
+             // const addSelect = [...newSelect, selectLaptop]
+             // setbuylaptops(addSelect);
+             setbuylaptops(newSelect);
+         }
+         else {
+ 
+             alert('gh')
+         }
+         console.log(selectLaptop); */
     }
     const resetBtn = () => {
         setbuylaptops([])

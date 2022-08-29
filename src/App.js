@@ -9,7 +9,7 @@ function App() {
       <div className='container'>
         <h1 className='p-5'>LAPTOP SHOP</h1>
         <Laptops></Laptops>
-        <Questions></Questions>
+        {/* <Questions></Questions> */}
       </div>
     </div>
   );
